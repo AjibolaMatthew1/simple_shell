@@ -2,10 +2,10 @@
 
 ## Table of Contents
 - [Description](#Description)
-- [File Structure](#File Structure)
+- [File Structure](#File\Structure)
 - [Requirements](#Requirements)
 - [Installation](#Installation)
-- [Example of Use](#Example of Use)
+- [Example of Use](#Example\of\Use)
 - [Authors](#Authors)
 
 
@@ -28,38 +28,38 @@ This project deals with creating a shell with minimal functionalities and the st
   - \_env - This prints the environment shell variables to stdout.
   - new_setenv - initializes a new environment variable, or modifies an existing one
   - new_unsetenv - removes an environment variable
- - [builtins2.c](./builtins2.c) - helper functions for the builtins
+- [builtins2.c](./builtins2.c) - helper functions for the builtins
   - add_key - creates a new environment variable
   - find_key - finds an environment variable in the environment array
   - add_value - creates a new environment variable string
   - \_atoi - converts a string into a non-negative integer
- - [environment.c](./environment.c) - These are functions that deals with the environment.
+- [environment.c](./environment.c) - These are functions that deals with the environment.
   - make_env - creates the shell's environment from the parent process
   - free_env - frees the shell's environment
- - [errors.c](./errors.c) - functions related to printing errors
+- [errors.c](./errors.c) - functions related to printing errors
   - print_error - prints an error message to the standard error
   - \_puts2 - prints a string to the standard error
- - [memory_allocation.c](./memory_allocation.c) - Functions related to memory allocation
+- [memory_allocation.c](./memory_allocation.c) - Functions related to memory allocation
   - \_realloc - a custom realloc function for arrays of pointers
- - [new_strtok.c](./new_strtok.c) - Custom strtok and helper functions
+- [new_strtok.c](./new_strtok.c) - Custom strtok and helper functions
   - check_match - checks if a character matches any in a string
   - new_strtok - a custom strtok for the shell
- - [path.c](./path.c) - functions related to executing commands
+- [path.c](./path.c) - functions related to executing commands
   - path_execute - executes a command in the PATH
   - find_path - finds the PATH environment variable
   - check_for_path - checks if the command is in the PATH
   - execute_cwd - executes a command with an absolute path
   - check_for_dir - checks if the command contains an absolute path
- - [simple_shell.c](./simple_shell.c) - These is the main shell functions for the shell
+- [simple_shell.c](./simple_shell.c) - These is the main shell functions for the shell
   - main - the main function of the program
   - sig_handler - handles SIGINT( this is what is sent when ^C is sent as a command by the user)
- - [strfunc.c](./strfunc.c) - Functions concerned with manipulating the string
+- [strfunc.c](./strfunc.c) - Functions concerned with manipulating the string
   - \_puts.c - This writes to the standard output.
   - \_strdup - duplicates a string
   - \_strcmpr - compares two strings
   - \_strcat - concatenates two strings with a / in the middle
   - \_strlen - calculates the length of a string
- - [tokenize.c](./tokenize.c)
+- [tokenize.c](./tokenize.c)
   - tokenize - creates an array of tokens from a buffer with a specified delimiter
 
 # Requirements
