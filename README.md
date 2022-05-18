@@ -15,7 +15,7 @@ Shell is often confused with as a terminal window and I was a victim of this fal
 ![Image of Shell](https://miro.medium.com/max/700/0*-OOMpchdZWQZr4zw)
 
 This project deals with creating a shell with minimal functionalities and the standard functions that were employed were:-
-	`access, execve, exit, fork, free, fstat, getline, malloc, perror, signal, stat, wait, write.`
+	`access, execve, exit, fork, free, fstat, getline, malloc, perror, signal, stat, wait, write`.
 
 
 # File Structure
@@ -64,7 +64,7 @@ This project deals with creating a shell with minimal functionalities and the st
 
 # Requirements
 
-simple_shell should be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
+simple_shell should be compiled on `Ubuntu 20.04 LTS` using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`.
 
 # Installation
 - Clone this repository.
