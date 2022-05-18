@@ -2,10 +2,10 @@
 
 ## Table of Contents
 - [Description](#Description)
-- [File Structure](#File\Structure)
+- [File Structure](#file-structure)
 - [Requirements](#Requirements)
 - [Installation](#Installation)
-- [Example of Use](#Example\of\Use)
+- [Example of Use](#example-of-use)
 - [Authors](#Authors)
 
 
