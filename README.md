@@ -64,7 +64,7 @@ This project deals with creating a shell with minimal functionalities and the st
 
 # Requirements
 
-Simple shell should be ompiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89. 
+Simple shell should be ompiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
 
 # Installation
 - Clone this repository.
@@ -79,28 +79,27 @@ Simple shell should be ompiled on Ubuntu 20.04 LTS using gcc, using the options 
 $ ./hsh
 $ # This is our rendition of the shell
 $ ls -al
-total 100
-drwxrwxr-x  3 vagrant vagrant  4096 Jul 19 22:49 .
-drwxr-xr-x 14 vagrant vagrant  4096 Jul 17 22:37 ..
--rw-rw-r--  1 vagrant vagrant   144 Jul 19 17:16 AUTHORS
--rw-rw-r--  1 vagrant vagrant  2367 Jul 19 22:33 builtins2.c
--rw-rw-r--  1 vagrant vagrant  2764 Jul 19 22:14 builtins.c
--rw-rw-r--  1 vagrant vagrant   710 Jul 16 01:03 environment.c
--rw-rw-r--  1 vagrant vagrant  1217 Jul 16 03:24 errors.c
-drwxrwxr-x  8 vagrant vagrant  4096 Jul 19 22:34 .git
--rwxrwxr-x  1 vagrant vagrant 32287 Jul 19 22:34 hsh
--rw-rw-r--  1 vagrant vagrant  1792 Jul 19 22:12 man_1_simple_shell
--rw-rw-r--  1 vagrant vagrant   484 Jul 15 20:09 memory_allocation.c
--rw-rw-r--  1 vagrant vagrant  1273 Jul 18 21:00 new_strtok.c
--rw-rw-r--  1 vagrant vagrant  3427 Jul 19 22:06 path.c
--rw-rw-r--  1 vagrant vagrant  2347 Jul 19 22:49 README.md
--rw-rw-r--  1 vagrant vagrant  1769 Jul 19 22:04 shell.h
--rw-rw-r--  1 vagrant vagrant  1480 Jul 18 21:15 simple_shell.c
--rw-rw-r--  1 vagrant vagrant  2111 Jul 16 01:10 strfunc.c
--rw-rw-r--  1 vagrant vagrant   719 Jul 19 21:46 tokenize.c
+total 72
+drwxrwxr-x 3 vagrant vagrant 4096 May 18 17:13 .
+drwxr-xr-x 9 vagrant vagrant 4096 May 18 17:15 ..
+drwxrwxr-x 8 vagrant vagrant 4096 May 18 17:15 .git
+-rw-rw-r-- 1 vagrant vagrant  146 May 18 16:14 AUTHORS
+-rw-rw-r-- 1 vagrant vagrant 5399 May 18 16:14 README.md
+-rw-rw-r-- 1 vagrant vagrant 2863 May 18 16:14 builtins.c
+-rw-rw-r-- 1 vagrant vagrant 2391 May 18 16:14 builtins2.c
+-rw-rw-r-- 1 vagrant vagrant  710 May 18 16:14 environment.c
+-rw-rw-r-- 1 vagrant vagrant 1217 May 18 16:14 errors.c
+-rw-rw-r-- 1 vagrant vagrant 2512 May 18 16:14 man_1_simple_shell
+-rw-rw-r-- 1 vagrant vagrant  485 May 18 16:25 memory_allocation.c
+-rw-rw-r-- 1 vagrant vagrant 1276 May 18 16:29 new_strtok.c
+-rw-rw-r-- 1 vagrant vagrant 3432 May 18 16:30 path.c
+-rw-rw-r-- 1 vagrant vagrant 1821 May 18 16:31 shell.h
+-rw-rw-r-- 1 vagrant vagrant 1510 May 18 16:33 simple_shell.c
+-rw-rw-r-- 1 vagrant vagrant 2116 May 18 17:12 strfunc.c
+-rw-rw-r-- 1 vagrant vagrant  720 May 18 17:13 tokenize.c
 ```
 
 # Authors
 
-Ajibola Matthew [LinkedIn](www.linkedin.com/in/jibbycodes) | [Twitter](www.twitter.com/jibsyyyyy)
-Joshua Ajayi [LinkedIn](#) | [Twitter](#)
+Ajibola Matthew [LinkedIn](https://linkedin.com/in/jibbycodes) | [Twitter](https://twitter.com/jibsyyyyy)
+Joshua Ajayi [LinkedIn](https://www.linkedin.com/in/hayjay71/) | [Twitter](https://twitter.com/HayJay71)
